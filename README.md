@@ -20,3 +20,8 @@ npm i
 node ./bin/proxy_app.js [proxyport] [targethost] [targetport]
 ```
 
+## ex
+
+```
+./bin/proxy_app.js 3000 www.google.com 80
+```
