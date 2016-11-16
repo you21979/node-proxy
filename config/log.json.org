@@ -1,0 +1,20 @@
+{
+  "appenders": [
+    {
+      "type": "file",
+      "absolute": true,
+      "filename": "/tmp/proxy.log",
+      "maxLogSize": 20480,
+      "backups": 10,
+      "category": "info"
+    },
+    {
+      "type": "file",
+      "absolute": true,
+      "filename": "/tmp/proxy.log",
+      "maxLogSize": 20480,
+      "backups": 10,
+      "category": "fatal"
+    }
+  ]
+}

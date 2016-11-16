@@ -1,0 +1,17 @@
+{
+  "name": "proxy",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "log4js" : "0.6.*"
+  },
+  "readmeFilename": "README.md",
+  "description": "",
+  "main": "proxy_app.js",
+  "devDependencies": {
+  },
+  "scripts": {
+    "proc" : "./bin/proxy_app.js"
+  },
+  "license": ""
+}
