@@ -1,0 +1,15 @@
+[Unit]
+Description=proxy server
+After=syslog.target network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/node /home/centos/node-proxy/bin/app.js 443 hostname 443
+WorkingDirectory=/home/centos/node-proxy
+KillMode=process
+Restart=always
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
