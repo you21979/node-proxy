@@ -4,7 +4,7 @@ After=syslog.target network.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/node /home/centos/node-proxy/bin/app.js 443 hostname 443
+ExecStart=/usr/bin/node /home/centos/node-proxy/bin/proxy_app.js 443 hostname 443
 WorkingDirectory=/home/centos/node-proxy
 KillMode=process
 Restart=always

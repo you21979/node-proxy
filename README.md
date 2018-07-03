@@ -12,6 +12,7 @@ git clone https://github.com/you21979/node-proxy.git
 cd node-proxy
 cp config/log.json.org config/log.json
 npm i
+cp misc/proxy-server-https.service /etc/systemd/system/
 ```
 
 ## execute
